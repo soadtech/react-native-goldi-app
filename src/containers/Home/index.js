@@ -2,7 +2,7 @@ import React from 'react'
 import { View, Text } from 'react-native'
 import Location from '../../components/Location'
 import MyStatusBar from '../../components/MyStatusBar'
-import { colors } from '../../utils/theme'
+import { colors, fonts } from '../../utils/theme'
 
 export default function Home () {
     return (

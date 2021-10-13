@@ -11,6 +11,10 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1B1D0879D44B4333A8F4C9CF /* NotoSerif-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E08177E397C4578A56A7CE4 /* NotoSerif-Bold.ttf */; };
+		2897408E066F485F81CDAF01 /* NotoSerif-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63C52AC7C19A446D94CE2ABB /* NotoSerif-Italic.ttf */; };
+		443FB38EA9C34A909CFD7A4E /* NotoSerif-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3298CAAF943E4C79BF96FD98 /* NotoSerif-BoldItalic.ttf */; };
+		5288C7BCB8F347B7B587B3C4 /* NotoSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AB8688A873241B0B38D707E /* NotoSerif-Regular.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		A4662BD96A7DCD5470BA4858 /* libPods-goldi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E1535AFEDCE4731F0B42A0 /* libPods-goldi.a */; };
 		D6FD1AE56F9E0F2732B8BE96 /* libPods-goldi-goldiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E171397ECD14A3A2081F1108 /* libPods-goldi-goldiTests.a */; };
@@ -36,8 +40,12 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = goldi/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = goldi/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = goldi/main.m; sourceTree = "<group>"; };
+		3298CAAF943E4C79BF96FD98 /* NotoSerif-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerif-BoldItalic.ttf"; path = "../src/assets/fonts/NotoSerif-BoldItalic.ttf"; sourceTree = "<group>"; };
 		439D654AF8E19063509F196F /* Pods-goldi-goldiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goldi-goldiTests.debug.xcconfig"; path = "Target Support Files/Pods-goldi-goldiTests/Pods-goldi-goldiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AB8688A873241B0B38D707E /* NotoSerif-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerif-Regular.ttf"; path = "../src/assets/fonts/NotoSerif-Regular.ttf"; sourceTree = "<group>"; };
+		63C52AC7C19A446D94CE2ABB /* NotoSerif-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerif-Italic.ttf"; path = "../src/assets/fonts/NotoSerif-Italic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = goldi/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E08177E397C4578A56A7CE4 /* NotoSerif-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerif-Bold.ttf"; path = "../src/assets/fonts/NotoSerif-Bold.ttf"; sourceTree = "<group>"; };
 		A2D962722E34AE83125FA1E6 /* Pods-goldi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goldi.debug.xcconfig"; path = "Target Support Files/Pods-goldi/Pods-goldi.debug.xcconfig"; sourceTree = "<group>"; };
 		C9E1535AFEDCE4731F0B42A0 /* libPods-goldi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-goldi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08EBB245DDEBA2DEDBF58BE /* Pods-goldi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goldi.release.xcconfig"; path = "Target Support Files/Pods-goldi/Pods-goldi.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +130,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				C86C2151D75A7055F70F2CF6 /* Pods */,
+				E25669033AAE40709CD1F2F3 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +156,18 @@
 			);
 			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E25669033AAE40709CD1F2F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E08177E397C4578A56A7CE4 /* NotoSerif-Bold.ttf */,
+				3298CAAF943E4C79BF96FD98 /* NotoSerif-BoldItalic.ttf */,
+				63C52AC7C19A446D94CE2ABB /* NotoSerif-Italic.ttf */,
+				4AB8688A873241B0B38D707E /* NotoSerif-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +266,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				1B1D0879D44B4333A8F4C9CF /* NotoSerif-Bold.ttf in Resources */,
+				443FB38EA9C34A909CFD7A4E /* NotoSerif-BoldItalic.ttf in Resources */,
+				2897408E066F485F81CDAF01 /* NotoSerif-Italic.ttf in Resources */,
+				5288C7BCB8F347B7B587B3C4 /* NotoSerif-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
