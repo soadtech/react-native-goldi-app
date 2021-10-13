@@ -12,7 +12,7 @@ export const fonts = {
     italic: {
         fontFamily: "NotoSerif-Italic"
     },
-    Regular: {
+    regular: {
         fontFamily: "NotoSerif-Regular"
     },
 }

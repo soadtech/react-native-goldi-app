@@ -2,6 +2,7 @@ import React from 'react'
 import { View, Text } from 'react-native'
 import Location from '../../components/Location'
 import MyStatusBar from '../../components/MyStatusBar'
+import MyText from '../../components/MyText'
 import { colors, fonts } from '../../utils/theme'
 
 export default function Home () {
@@ -10,7 +11,7 @@ export default function Home () {
             <MyStatusBar backgroundColor={colors.white} barStyle="dark-content" />
             <View style={{ paddingHorizontal: 20, backgroundColor: colors.white, flex: 1 }}>
                 <View>
-                    <Text>Explore</Text>
+                    <MyText>Explore</MyText>
                     <Location location='Barranquilla, Col' />
                 </View>
             </View>
