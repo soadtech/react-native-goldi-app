@@ -12,7 +12,7 @@ export default function Home () {
             <MyStatusBar backgroundColor={colors.white} barStyle="dark-content" />
             <View style={{ paddingHorizontal: 20, backgroundColor: colors.white, flex: 1 }}>
                 <View>
-                    <MyText>Explore</MyText>
+                    <MyText size={22}>Explore</MyText>
                     <Location location='Barranquilla, Col' />
                 </View>
 
