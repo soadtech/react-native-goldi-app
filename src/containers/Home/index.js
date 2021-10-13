@@ -3,6 +3,7 @@ import { View, Text } from 'react-native'
 import Location from '../../components/Location'
 import MyStatusBar from '../../components/MyStatusBar'
 import MyText from '../../components/MyText'
+import NavFilterPet from '../../components/NavFilterPet'
 import { colors, fonts } from '../../utils/theme'
 
 export default function Home () {
@@ -14,6 +15,8 @@ export default function Home () {
                     <MyText>Explore</MyText>
                     <Location location='Barranquilla, Col' />
                 </View>
+
+                <NavFilterPet />
             </View>
         </View>
     )
